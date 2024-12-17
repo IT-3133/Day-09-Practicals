@@ -18,3 +18,13 @@ export default function Index() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  header: {
+    width: 200,
+    height: 200,
+    borderStyle: "solid",
+    borderWidth: 2,
+    borderColor: "blue",
+  },
+});
