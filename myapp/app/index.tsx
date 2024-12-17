@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View, Image, StyleSheet } from "react-native";
 
 export default function Index() {
   return (
@@ -9,7 +9,9 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Image source={require("../assets/images/partial-react-logo.png")} />
+      <Text>2020ICT30</Text>
+      <Text>Hello world, this is My First ReactNative cross platform app</Text>
     </View>
   );
 }
